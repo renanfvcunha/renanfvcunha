@@ -1,0 +1,43 @@
+{
+  "workbench.colorTheme": "Dracula",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "'Fira Code'",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 15,
+  "editor.tabSize": 2,
+  "editor.rulers": [80, 120],
+  "editor.renderLineHighlight": "gutter",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "[javascript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "material-icon-theme.files.associations": {
+    "*.controller.ts": "Nest-controller",
+    "*.module.ts": "Nest-module",
+    "*.service.ts": "Nest-service",
+    "*.middleware.ts": "Nest-middleware",
+    "*.decorator.ts": "Nest-decorator",
+    "*.guard.ts": "Nest-guard",
+    "*.pipe.ts": "Nest-pipe"
+  },
+  "material-icon-theme.folders.associations": {
+    "entities": "Class"
+  },
+  "[php]": {
+    "editor.tabSize": 4
+  },
+}
+
